@@ -2,3 +2,37 @@
     width: 100px;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.social{
+    position: fixed;
+    left: 0;
+    top: 200px;
+    z-index: 2000;
+}
+.social ul {
+    list-style-type: none;
+}
+.social ul li a {
+    display: inline-block;
+    color:rgb(255, 255, 255);
+    background-color:rgba(0, 0, 0, 0.459);
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.social ul li .icon-google2 {background:aqua ;}
+.social ul li .icon-google-plus2 {background:red}
+.social ul li .icon-instagram {background:deeppink;}
+.social ul li .icon-facebook2 {background:blue;}
+.social ul li .icon-whatsapp {background:greenyellow;}
+
+.social ul li a:hover {
+    padding: 10px 30px;
+    
+}

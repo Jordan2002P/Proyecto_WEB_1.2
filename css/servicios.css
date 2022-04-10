@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.Titulo{
+    text-align: center;
+    background-position: 50%;
+    background-color: black;
+    text-decoration-color: blue;
+}
+
+.contenido{
+    text-align: end;
+    background-color: azure;
+}

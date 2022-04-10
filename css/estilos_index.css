@@ -1,0 +1,24 @@
+.carousel-inner img {
+    width: 100%;
+    max-height: 600px;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+.carousel-inner{
+    height: 80%;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+@media screen and (min-widht: 800px){}
+    .Titulo {
+        width: 80%;
+    }
+    aside{
+        width: 80%;
+    }
+    .body{
+        width: 80%;
+        height: auto;
+    }

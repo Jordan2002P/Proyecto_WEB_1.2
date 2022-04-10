@@ -1,7 +1,4 @@
-body{
-    padding: 0;
-    margin: 0;
-}
+
 
 .titulo{
     text-align: center;
@@ -14,4 +11,18 @@ body{
     text-align: center;
     background-color: azure;
     position: center;
+}
+.contenedor-peluquería{
+    width: 80%;
+    text-align: center;
+}
+
+.contenedor-pastel{
+    width: 80%;
+    text-align: center;
+}
+
+.contenedor-guardería{
+    width: 80%;
+    text-align: center;
 }

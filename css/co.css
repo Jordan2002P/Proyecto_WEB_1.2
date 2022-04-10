@@ -1,17 +1,21 @@
-*{
-    padding: 0%;
-    margin: 0%;
-    box-sizing: border-box;
-}
 
-.body{
+#body{
     background: black;
     color: bisque;
     font-family:'Times New Roman', Times, serif;
 
 }
 
-.contenedor{
+
+
+/* *{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+} */
+
+
+#contenedor{
     width: 98%;
     max-width: 120px;
     margin: auto;
@@ -19,7 +23,7 @@
     display: flex;
     gap: 20px;
 }
-.contenedor-comidas{
+#contenedor-comidas{
     width: 70%;
     display: flex;
     flex-wrap: wrap;
@@ -39,9 +43,11 @@
     width:calc(33.33% - 20%);
 }
 
-card.textos{
+.card .textos{
     height: 100%;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .banner{
@@ -50,5 +56,9 @@ card.textos{
     padding: 20px;
     background-size: cover;
     background-position: center center;
+
     width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

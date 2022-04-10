@@ -1,4 +1,4 @@
-*{
+/* *{
     padding: 0;
     margin: 0;
 }
@@ -13,4 +13,59 @@
 .contenido{
     text-align: end;
     background-color: azure;
+} */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: #1D202B;
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 2200px;
+	margin: auto;
+	padding: 100px 0;
+    display: flex;
+    gap: 50px;
+    padding: 10px 15px;
+
+}
+
+.titulo {
+	font-size: 24px;
+	padding: 20px 0;
+}
+
+.peluqueria{
+    position: 0;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.card {
+	border-radius: 50px;
+	min-height: 100px;
+	font-weight: bold;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+	width: calc(60% - 20px);
+    background-position-y: 200px;
+}
+.card .textos {
+	height: 100%;
+
+
 }

@@ -12,4 +12,8 @@ label {
     margin: .4rem 0;
 }
 
-
+body {
+	background: cadetblue;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.secciones img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.contenido {
+    display: flex;
+    margin: 100px;
+}
+
+body {
+	background: cadetblue;
+	color: black;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,16 +1,21 @@
 // objeto.metodo(json)
+// $("#formulario1").click(function (event) {
+//     /* Borrar las consultas */
+//     event.preventDefault();
+// });
+btnGuardar.preventDefault();
 
-$("#peluqueria").validate({
+$("#formulario1").validate({
     rules: {
-        "txtEmail": {
+        "id_txtNombre": {
+            required: true,
+            
+        },
+        "id_txtEmail": {
             required: true,
             email: true
         },
-        "txtEmail": {
-            required: true,
-            minlength: 5
-        },
-        "txtSolicitud": {
+        "id_txtSolicitud": {
             required: true,
             equalTo: '#id_txtSolicitud'
         }
@@ -22,11 +27,13 @@ $("#peluqueria").validate({
         },
         "txtSolicitud": {
             required: 'Detalles de la agenda',
-            minlength: 'Min. 5 caract'
+            minlength: 'le'
         },
      
     } //-->Fin de mensajes
 
+
 });
+
 
 

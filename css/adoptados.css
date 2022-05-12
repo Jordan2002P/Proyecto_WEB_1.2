@@ -3,3 +3,110 @@ body {
 	color: black;
 	font-family: 'Roboto', sans-serif;
 }
+
+.section {
+    display: flex;
+    flex-flow: row wrap;
+    /*fila respeta ancho*/
+    font-weight: bold;
+    text-align: center;
+}
+
+.row-1 {
+    display: flex;
+    flex-flow: row wrap;
+    /*fila respeta ancho*/
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,43 @@
+{% extends 'app/base.html' %}
+
+{% load static %}
+
+{% block acce %}
+<link rel="stylesheet" href="{% static 'app/css/accesorios.css'%}">
+
+<div class="contenedor">
+    <div class="banner" style="background-image: url('../static/app/img/jaula.jpg');">
+      <h3>Jaulas para Mascotas</h3>
+      <ul>
+        <li>Jaulas para Gatos</li>
+        <li>Jaulas para Perros</li>
+        <li>Jaulas para Hamsters</li>
+        <li>Jaulas para Urones</li>
+      </ul>
+    </div>
+
+    <div class="contenedor-accesorios">
+      <div class="card" style="background-image: url('../static/app/img/arenero.jpg');">
+        <div class="textos">
+          <h3>Areneros</h3>
+        </div>
+      </div>
+      <div class="card" style="background-image: url('../static/app/img/casadeperro.jpg');">
+        <div class="textos">
+          <h3>Casas para Perros</h3>
+        </div>
+      </div>
+      <div class="card" style="background-image: url('../static/app/img/juguetes-1.jpg');">
+        <div class="textos">
+          <h3>Juguetes</h3>
+        </div>
+      </div>
+      <div class="card" style="background-image: url('../static/app/img/rascadores.jpg');">
+        <div class="textos">
+          <h3>Rascadores para Gatos</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}

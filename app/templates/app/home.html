@@ -1,0 +1,74 @@
+{% extends 'app/base.html' %}
+
+{% load static %}
+
+{% block contenido %}
+<link rel="stylesheet" href="{% static 'app/css/estilos_index.css'%}">
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+          <a href="paginas/accesorios.html">
+            <img src="{% static 'app/img/accesorios.jpg' %}" class="d-block w-100" alt="accesorios">
+          </a>
+          <a href="/app/static/app/img/accesorios.jpg">
+          <!-- <a href="paginas/accesorios.html"></a> -->
+        </a>
+        <div class="carousel-caption d-none d-md-block" id="accesorios">
+          <h5>Accesorios</h5> 
+          <p>Los mejores accesorios para tu mascota</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+          <a href="paginas/comida.html">
+            <img src="{% static 'app/img/comida.jpg' %}" class="d-block w-100" alt="comida">
+          </a>
+          <a href="/app/static/app/img/comida.jpg">
+            <!-- <a href="paginas/comida.html"></a> -->
+        </a>
+        <div class="carousel-caption d-none d-md-block" id="comida">
+          <h5>Comida</h5>
+          <p>La mejor comida para tu mascota</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+          <a href="paginas/accesorios.html">
+            <img src="{% static 'app/img/juguetes.jpg' %}" class="d-block w-100" alt="juguetes">
+          </a>
+          <a href="/app/static/app/img/juguetes.jpg">
+            <!-- <a href="paginas/accesorios.html"></a> -->
+        </a>
+        <div class="carousel-caption d-none d-md-block" id="juguetes">
+          <h5>Juguetes</h5>
+          <p>Los mejores juguetes para tu mascota</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <br>
+  <br>
+  <div class="contenedor-inferior">
+    <aside class="lateral_1">
+      <img src="{% static 'app/img/Animalitos_2.jpg' %}" alt="animalitos">
+    </aside>
+    <aside class="lateral_2">
+      <h1>¿Quienes somos?</h1>
+      <h5>En Tu Tienda de Mascotas encontraras los mejores accesorios, 
+        alimentos de la más alta calidad y los mejores juguetes para que tu mascota se divierta a lo grande.</h5>
+    </aside>
+</div>
+
+{% endblock %}

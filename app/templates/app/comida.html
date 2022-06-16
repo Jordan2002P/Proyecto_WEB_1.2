@@ -1,0 +1,44 @@
+{% extends 'app/base.html' %}
+
+{% load static %}
+
+{% block comi %}
+<link rel="stylesheet" href="{% static 'app/css/comida.css'%}">
+
+
+<div class="contenedor">
+    <div class="contenedor-alimentos">
+      <div class="card" style="background-image: url('../static/app/img/kitten_playing.jpg');">
+        <div class="textos">
+          <h3>Comida para Gato</h3>
+        </div>
+      </div>
+      <div class="card" style="background-image: url('../static/app/img/dog_play.jpg');">
+        <div class="textos">
+          <h3>Comida para Perro</h3>
+        </div>
+      </div>
+      <div class="card" style="background-image: url('../static/app/img/grupo-de-loros.jpg');">
+        <div class="textos">
+          <h3>Comida para Aves</h3>
+        </div>
+      </div>
+      <div class="card" style="background-image: url('../static/app/img/urones.jpg');">
+        <div class="textos">
+          <h3>Comida para Urones</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="banner" style="background-image: url('../static/app/img/conejitos.jpg');">
+      <h3>Comida para otros animales</h3>
+      <ul>
+        <li>Hamsters</li>
+        <li>Conejos</li>
+        <li>Tortugas</li>
+      </ul>
+    </div>
+  </div>
+
+
+{% endblock %}

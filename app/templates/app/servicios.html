@@ -1,0 +1,41 @@
+{% extends 'app/base.html' %}
+
+{% load static %}
+
+{% block serv %}
+<link rel="stylesheet" href="{% static 'app/css/servicios.css'%}">
+
+<div class="container">
+    <div class="card">
+      <figure>
+        <img src="{% static 'app/img/pelu.jpg' %}">
+      </figure>
+      <div class="contenido">
+        <h3>Peluqueria</h3>
+        <p>El servicio de Peluquería Canina incluye: Baño sanitario, corte de uñas, limpieza de oídos y limpieza de glándulas anales.</p>
+        <a href="">Agendar</a>
+      </div>
+    </div>
+    <div class="card">
+      <figure>
+        <img src="{% static 'app/img/guarderia.jpg' %}">
+      </figure>
+      <div class="contenido">
+        <h3>Guarderia</h3>
+        <p>El servicio de guarderia cuenta con estadia para sus mascotas y atención 24/7.</p>
+        <a href="guarderia.html">Saber Más</a>
+      </div>
+    </div>
+    <div class="card">
+      <figure>
+        <img src="{% static 'app/img/Adopción.jpg' %}">
+      </figure>
+      <div class="contenido">
+        <h3>Adoptar</h3>
+        <p>Contamos con adopción de mascotas, perritos y gatitos listos para ser tu nuevo amigo!</p>
+        <a href="adoptados.html">Adoptar YA!</a>
+      </div>
+    </div>
+  </div>
+
+{% endblock %}

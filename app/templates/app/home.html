@@ -13,36 +13,27 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-          <a href="paginas/accesorios.html">
+          <a href="{% url 'accesorios' %}">
             <img src="{% static 'app/img/accesorios.jpg' %}" class="d-block w-100" alt="accesorios">
           </a>
-          <a href="/app/static/app/img/accesorios.jpg">
-          <!-- <a href="paginas/accesorios.html"></a> -->
-        </a>
         <div class="carousel-caption d-none d-md-block" id="accesorios">
           <h5>Accesorios</h5> 
           <p>Los mejores accesorios para tu mascota</p>
         </div>
       </div>
       <div class="carousel-item">
-          <a href="paginas/comida.html">
+          <a href="{% url 'comida' %}">
             <img src="{% static 'app/img/comida.jpg' %}" class="d-block w-100" alt="comida">
           </a>
-          <a href="/app/static/app/img/comida.jpg">
-            <!-- <a href="paginas/comida.html"></a> -->
-        </a>
         <div class="carousel-caption d-none d-md-block" id="comida">
           <h5>Comida</h5>
           <p>La mejor comida para tu mascota</p>
         </div>
       </div>
       <div class="carousel-item">
-          <a href="paginas/accesorios.html">
+          <a href="{% url 'accesorios' %}">
             <img src="{% static 'app/img/juguetes.jpg' %}" class="d-block w-100" alt="juguetes">
           </a>
-          <a href="/app/static/app/img/juguetes.jpg">
-            <!-- <a href="paginas/accesorios.html"></a> -->
-        </a>
         <div class="carousel-caption d-none d-md-block" id="juguetes">
           <h5>Juguetes</h5>
           <p>Los mejores juguetes para tu mascota</p>

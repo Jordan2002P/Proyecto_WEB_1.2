@@ -28,6 +28,19 @@
               <li class="nav-item">
                 <a class="nav-link" href="{% url 'servicios' %}">Servicios</a>
               </li>
+              {% if not user.is_authenticated %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'registrar' %}">Registrarse</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'login' %}">Iniciar Sesion</a>
+                    </li>
+                    {% endif %}
+              {% if user.is_authenticated %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'logout' %}">Cerrar sesión</a>
+                    </li>
+                    {% endif %}
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Tienda
@@ -40,6 +53,7 @@
             </ul>
           </div>
         </div>
+        
       </nav>
 
 <div id="contenido">
@@ -77,6 +91,20 @@
   {% endblock %}
   </div>
 
+<div id="login">
+  {% block login%}
+  {% endblock %}
+  </div>
+
+<div id="registrar">
+  {% block registrar%}
+  {% endblock %}
+  </div>
+
+  <div id="content">
+    {% block content%}
+    {% endblock %}
+    </div>
 
     <div class="social">
       <ul>

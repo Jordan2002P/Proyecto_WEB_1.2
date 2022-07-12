@@ -25,6 +25,10 @@ from Juguetes import views
 urlpatterns = [ 
     path('api/', views.API_objects.as_view()), 
     path('api/<int:pk>/', views.API_objects_details.as_view()), 
+    
+    # api
+    path('productos/',  views.producto_collection , name='producto_collection'),
+    path('productos/<int:pk>/', views.producto_element ,name='producto_element'),
 ] 
 
 
